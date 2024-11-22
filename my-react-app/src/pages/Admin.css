@@ -1,0 +1,42 @@
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .admin-nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .admin-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .admin-nav li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .admin-nav .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .admin-content {
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
